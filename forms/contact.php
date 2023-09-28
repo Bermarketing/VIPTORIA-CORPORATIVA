@@ -8,7 +8,7 @@ $message = $_POST['mensaje'];
 // Enviar correo electrónico
 
 $to = 'bernardojgonzaleza@gmail.com';
-$subject = 'Consulta de contacto';
+$subject = 'Consulta de contacto a VIPtoria';
 $message = "Nombre: $name\nEmail: $email\nAsunto: $subject\nMensaje: $message";
 
 mail($to, $subject, $message);

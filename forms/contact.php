@@ -1,9 +1,9 @@
 <?php
 
-$name = $_POST['name'];
+$name = $_POST['nombre'];
 $email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$subject = $_POST['asunto'];
+$message = $_POST['mensaje'];
 
 // Enviar correo electrónico
 
